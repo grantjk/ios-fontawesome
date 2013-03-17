@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/*'
   s.resources    = 'Resources/*' 
   s.license = 'MIT'
+  s.requires_arc = true
   
 end

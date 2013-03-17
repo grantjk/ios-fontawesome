@@ -41,6 +41,7 @@
  * icon enum passed as argument */
 + (NSString*)fontAwesomeIconStringForEnum:(FAIcon)value
 {
+    NSLog(@"self: %@", self);
     return [self fontAwesomeIcons][value];
 }
 
