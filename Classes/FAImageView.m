@@ -52,7 +52,7 @@
     _defaultView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
     //The default icon is the ban icon
-    [self setDefaultIcon:FAIconBanCircle];
+    [self setDefaultIcon:AU_FAIconBanCircle];
     
     _defaultView.font = [UIFont iconicFontOfSize:self.bounds.size.height];
     _defaultView.textAlignment = NSTextAlignmentCenter;
@@ -77,7 +77,7 @@
     self.defaultIcon = [NSString fontAwesomeEnumForIconIdentifier:defaultIconIdentifier];
 }
 
-- (void)setDefaultIcon:(FAIcon)defaultIcon
+- (void)setDefaultIcon:(AU_FAIcon)defaultIcon
 {
     _defaultIcon = defaultIcon;
     _defaultView.text = [NSString fontAwesomeIconStringForEnum:defaultIcon];

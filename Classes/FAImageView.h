@@ -38,7 +38,7 @@
 @property (nonatomic, strong) NSString *defaultIconIdentifier;
 
 /* Set the icon using the icon enumerations */
-@property (nonatomic, assign) FAIcon defaultIcon;
+@property (nonatomic, assign) AU_FAIcon defaultIcon;
 
 /* The view that is displayed when the image is set to nil */
 @property (nonatomic, strong) UILabel *defaultView;
