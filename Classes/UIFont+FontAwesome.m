@@ -7,7 +7,7 @@
 //
 
 #import "UIFont+FontAwesome.h"
-#import "NSString+FontAwesome.h"
+#import "NSString+AU_FontAwesome.h"
 
 @implementation UIFont (FontAwesome)
 

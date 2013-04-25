@@ -7,7 +7,7 @@
 //
 
 #import "FAViewController.h"
-#import "NSString+FontAwesome.h"
+#import "NSString+AU_FontAwesome.h"
 #import "FAImageView.h"
 
 @interface FAViewController ()

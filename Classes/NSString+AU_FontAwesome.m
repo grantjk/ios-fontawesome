@@ -22,9 +22,9 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 //
 
-#import "NSString+FontAwesome.h"
+#import "NSString+AU_FontAwesome.h"
 
-@implementation NSString (FontAwesome)
+@implementation NSString (AU_FontAwesome)
 
 #pragma mark - public
 

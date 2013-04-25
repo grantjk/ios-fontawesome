@@ -278,7 +278,7 @@ typedef NS_ENUM(NSInteger, FAIcon) {
     FAIconSuitcase,
 };
 
-@interface NSString (FontAwesome)
+@interface NSString (AU_FontAwesome)
 
 /* Returns the correct enum for a font-awesome icon.
  * The list of identifiers can be found here:

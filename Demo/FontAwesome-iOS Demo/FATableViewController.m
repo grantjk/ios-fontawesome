@@ -8,7 +8,7 @@
 //
 
 #import "FATableViewController.h"
-#import "NSString+FontAwesome.h"
+#import "NSString+AU_FontAwesome.h"
 #import "FATableViewCell.h"
 
 @interface FATableViewController ()

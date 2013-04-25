@@ -27,7 +27,7 @@
 
 
 #import <UIKit/UIKit.h>
-#import "NSString+FontAwesome.h"
+#import "NSString+AU_FontAwesome.h"
 
 @interface FAImageView : UIImageView
 
